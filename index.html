@@ -4,8 +4,191 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My flower shope</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+        .body{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(245, 248, 255);
+}
+.titles_ {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+    </style>
 </head>
 <body>
-    
+
+    <!-- navbar  -->
+
+    <nav class="flex justify-between items-center mt-[2rem] max-w-[1440px] m-auto">
+        <div>
+            <img src="./assets/logo.png" alt="">
+        </div>
+        <div>
+            <ul class="flex justify-between space-x-8">
+                <li><a href="#" class="font-bold">Home</a></li>
+                <li><a href="#" class="text-gray-500">shop</a></li>
+                <li><a href="#" class="text-gray-500">About Us</a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Cart($56)</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- banner -->
+
+    <section class="flex max-w-[1440px] m-auto items-center mt-[200px]">
+        <div>
+            <h1 class="titles_ text-5xl">Always <span class="text-orange-600">Fresh <br>Flowers</span></h1>
+            <p class="text-gray-500 w-[50%]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+
+        </div>
+
+        <div>
+            <img src="./assets/hero-flower.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- cards -->
+    <section class="mt-30">
+        <div>
+            <center>
+               <h1 class="titles_ text-4xl"><span class="text-orange-600">Our</span> Plants</h1> 
+            </center>
+            <center>
+                <p class="text-gray-500">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+            </center>            
+        </div>
+
+        <div class="max-w-[1440px] m-auto">
+            <div class="grid grid-cols-4  ">
+                <div class="bg-white  p-4">
+                    <center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center>
+                </div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+            </div>
+            <div class="grid grid-cols-4  ">
+                <div class="bg-white  p-4">
+                    <center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center>
+                </div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+                <div class="bg-white  p-4"><center>
+                        <img src="./assets/sample-flower-image.png" alt="">
+                    </center>
+                    <center>
+                        <h1>Lily blooms</h1>
+                        <h1 class="font-bold">100 USD</h1>
+                    </center>
+                    <center>
+                        <button class="bg-orange-600 text-white font-semibold py-2 px-24 rounded hover:bg-orange-700 transition cursor-pointer">Add to Cart</button>
+                    </center></div>
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <!-- mid -->
+     <section class="flex max-w-[1440px] m-auto items-center justify-center mt-50">
+        <div class="w-1/3">
+            <img src="./assets/flower-store.png" alt="" class="max-w-full max-h-full object-contain">
+            
+        </div>
+        <div class="w-1/3 ml-20">
+            <h1 class="titles_ text-4xl">Flower & Plants Lover</h1>
+            <ul class="list-disc pl-6 text-gray-500">
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+                <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+            </ul>
+        </div>
+     </section>
+
+     <!-- Deals -->
+
+
+
+
+     <!-- subscribe -->
+      <h1>Join the colorful Bunch</h1>
+      
+
 </body>
 </html>
